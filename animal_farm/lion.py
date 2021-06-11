@@ -1,10 +1,10 @@
-"""a leopard"""
+"""a lion"""
 
 import animal
 
-class Leopard(animal.Animal):
+class Lion(animal.Animal):
     def __init__(self):
-        self.kind = 'leopard'
+        self.kind = 'lion'
 
     def get_kind(self):
         return self.kind
