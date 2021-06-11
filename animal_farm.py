@@ -4,3 +4,5 @@ from animals import lion
         return dog.Dog()
     if kind == 'lion':
         return lion.Lion()
+    if kind == 'leopard':
+        return leopard.Leopard()
